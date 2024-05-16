@@ -1,0 +1,16 @@
+{
+  "name": "stock-server",
+  "version": "1.0.0",
+  "description": "Backend server for stock dashboard simulation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node stockServerV3.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "corss": "^2.8.5",
+    "http": "^0.0.1-security"
+  },
+  "author": "",
+  "license": "ISC"
+}

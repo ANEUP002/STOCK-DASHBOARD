@@ -1,0 +1,41 @@
+{
+    "hostname": "127.0.0.1",
+    "port": "31324",
+    "stocks": ["IBM", "AMZN", "DOW", "NASDAQ"],
+    "IBM":
+    {
+	"initPrice": "140",
+	"rate": "0.2",
+	"fullName": "International Business Machines",
+	"baseVolume": "1000",
+	"volumeRate": "1.0",
+	"volumeTrend": "random"
+    },
+    "AMZN":
+    {
+	"initPrice": "425",
+	"rate": "-0.2",
+	"fullName": "Amazon",
+	"baseVolume": "1200",
+	"volumeRate": "1.0",
+	"volumeTrend": "random"
+    },
+    "DOW":
+    {
+	"initPrice": "38675",
+	"rate": "0.15",
+	"fullName": "Dow Jones Industrial Average",
+	"baseVolume": "1000",
+	"volumeRate": "1.5",
+	"volumeTrend": "up"
+    },
+    "NASDAQ":
+    {
+	"initPrice": "16147",
+	"rate": "0.02",
+	"fullName": "Nasdaq Composite",
+	"baseVolume": "1000",
+	"volumeRate": "1.5",
+	"volumeTrend": "up"
+    }
+}
