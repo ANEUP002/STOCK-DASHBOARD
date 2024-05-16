@@ -1,0 +1,16 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px; /* Adds space between stock containers */
+}
+
+.dashboard h1 {
+  width: 100%; /* Full width to ensure it centers on its own line */
+  text-align: center;
+  color: #333333;
+  margin: 20px 0;
+}

@@ -1,0 +1,33 @@
+/* src/components/Stock.css */
+.stock-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px; /* Reduced margin for better fit */
+    flex: 0 1 45%; /* Allows two items per row, adjusting flex-basis to fit two items */
+    transition: transform 0.3s ease-in-out;
+    text-align: center; /* Centers the text inside the container */
+}
+
+.stock-container:hover {
+    transform: translateY(-5px);
+}
+
+h2, p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.stock-price, .stock-volume {
+    font-weight: bold;
+}
+
+.stock-price {
+    color: #4CAF50;
+}
+
+.stock-volume {
+    color: #FF5722;
+}
